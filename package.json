@@ -1,0 +1,17 @@
+{
+  "name": "fis-lint-css",
+  "version": "1.0.1",
+  "description": "a fis lint for css",
+  "main": "index.js",
+  "author": "Mwing<mwing@163.com>",
+  "license": "MIT",
+  "git": "https://github.com/sharh/fis-lint-csslint.git",
+  "dependencies": {
+    "csslint": "^1.0.5",
+    "chalk": "^1.0.0",
+    "coalescy": "1.0.0",
+    "extend": "^3.0.0",
+    "minimist": "^1.2.0",
+    "text-table": "^0.2.0"
+  }
+}
