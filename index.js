@@ -11,7 +11,7 @@ module.exports = function (content, file, conf) {
         return;
     }
     if(conf.formatter && conf.formatter.formatterId && CssLint.hasFormat(conf.formatter.id)){
-        messages = CssLint.format(report, file.id, conf.formatter, conf.formatter.formatterId, conf.formatter.options);
+        messages = CssLint.format(report, file.id, conf.formatter.formatterId, conf.formatter.options);
     }else{
         var resMessages = [];
         var results = [];
